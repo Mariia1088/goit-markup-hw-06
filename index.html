@@ -18,7 +18,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -167,18 +166,18 @@
           <h2 class="team-title-main">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
-              <figure>
+              
                 <img
                   class="team-photo"
                   src="./images/product_designer.jpg"
                   alt="Дизайнер продукта"
                   width="270"
                 />
-                <figcaption class="team-figcaption">
+                <div class="team-figcaption">
                   <h3 class="team-title">Игорь Демьяненко</h3>
                   <p class="team-text" lang="en">Product Designer</p>
-                </figcaption>
-              </figure>
+                </div>
+             
               <ul class="social-links-list">
                 <li class="social-links-item">
                   <a
@@ -231,18 +230,18 @@
               </ul>
             </li>
             <li class="team-item">
-              <figure>
+              
                 <img
                   class="team-photo"
                   src="./images/frontend_developer.jpg"
                   alt="Фронтенд-разработчик"
                   width="270"
                 />
-                <figcaption class="team-figcaption">
+                <div class="team-figcaption">
                   <h3 class="team-title">Ольга Репина</h3>
                   <p class="team-text" lang="en">Frontend Developer</p>
-                </figcaption>
-              </figure>
+                </div>
+              
               <ul class="social-links-list">
                 <li class="social-links-item">
                   <a
@@ -295,18 +294,16 @@
               </ul>
             </li>
             <li class="team-item">
-              <figure>
                 <img
                   class="team-photo"
                   src="./images/marketing.jpg"
                   alt="Маркетолог"
                   width="270"
                 />
-                <figcaption class="team-figcaption">
+                <div class="team-figcaption">
                   <h3 class="team-title">Николай Тарасов</h3>
                   <p class="team-text" lang="en">Marketing</p>
-                </figcaption>
-              </figure>
+                </div>
               <ul class="social-links-list">
                 <li class="social-links-item">
                   <a
@@ -359,18 +356,18 @@
               </ul>
             </li>
             <li class="team-item">
-              <figure>
+              
                 <img
                   class="team-photo"
                   src="./images/ul_designer.jpg"
                   alt="Дизайнер пользовательского интерфейса"
                   width="270"
                 />
-                <figcaption class="team-figcaption">
+                <div class="team-figcaption">
                   <h3 class="team-title">Михаил Ермаков</h3>
                   <p class="team-text" lang="en">UI Designer</p>
-                </figcaption>
-              </figure>
+                </div>
+              
               <ul class="social-links-list">
                 <li class="social-links-item">
                   <a
@@ -510,11 +507,9 @@
     <footer class="footer">
       <div class="container footer-block">
         <div class="footer-container">
-          <div class="footer-logo">
             <a href="./index.html" class="logo"
               >Web<span class="logo-second">Studio</span></a
             >
-          </div>
           <address class="address">
             <a
               href="https://www.google.com/maps/place/бульвар+Лесі+Українки,+26,+Київ,+02000/@50.4268262,30.5376407,18.9z/data=!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
@@ -538,7 +533,7 @@
           </ul>
         </div>
         <div class="social-links-footer">
-          <h3 class="social-links-title">Присоединяйтесь</h3>
+          <h2 class="social-links-title">Присоединяйтесь</h3>
           <ul class="social-links-list">
             <li class="social-links-item">
               <a
@@ -592,7 +587,7 @@
         </div>
        <!-- Footer-form -->
         <div class="subscribe">
-          <h3 class="subscribe-title">Подпишитесь на рассылку</h3>
+          <h2 class="subscribe-title">Подпишитесь на рассылку</h3>
           <form class="subscribe_form">
             <input
               class="subscribe-form"
@@ -663,14 +658,13 @@
             </svg>
           </div>
           <div class="input-wrap">
-            <label for="feedback" class="modal-label"> Комментарий </label>
+            <label for="feedback" class="modal-label"> Комментарий</label>
             <textarea
               name="feedback"
               id="feedback"
               class="feedback"
               placeholder="Введите текст"
-            >
-            </textarea>
+            ></textarea>
           </div>
                 <label class="modal-label checkbox-label">
               <input
@@ -680,8 +674,8 @@
                 value="contract"
               /> 
               <span class="checkbox-icon">
-                <svg class="checkbox-icon-check" aria-hidden="true">
-                  <use href="./images/icons.svg#icon-check"></use>
+                <svg class="checkbox-icon-check" aria-hidden="true" width="11" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
                             </svg></span>
               Соглашаюсь с рассылкой и принимаю
               <span class="contract-link">Условия договора</span>
