@@ -761,15 +761,6 @@ svg.icon-envelope {
   margin-bottom: var(--typical-margin);
 }
 
-.modal-label {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
-  color: var(--text-color);
-  margin-bottom: 4px;
-}
-
 .modal-input {
   height: 40px;
   padding-left: 42px;
@@ -790,8 +781,7 @@ svg.icon-envelope {
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  padding-top: 12px;
-  padding-left: 16px;
+  padding: 12px 16px;
   transition-property: border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -909,14 +899,14 @@ svg.icon-envelope {
 }
 
 .checkbox-label {
-  font-weight: 400;
+  margin-top: var(--typical-margin);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
   display: flex;
   align-items: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .checkbox-icon {
